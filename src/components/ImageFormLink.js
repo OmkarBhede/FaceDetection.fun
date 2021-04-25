@@ -4,7 +4,7 @@ import "./ImageFromLink.css";
 function ImageFormLink({ imageURL }) {
   return (
     <div>
-      <img className="imageDiv" src={imageURL} alt=""></img>
+      <img id="inputImage" className="imageDiv" src={imageURL} alt=""></img>
     </div>
   );
 }
