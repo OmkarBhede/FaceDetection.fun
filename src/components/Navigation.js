@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 function Navigation() {
   return (
     <div className="navigation">
-      <Button variant="danger">Log Out</Button>{" "}
+      <Button variant="danger">by Omkar Bhede</Button>{" "}
     </div>
   );
 }

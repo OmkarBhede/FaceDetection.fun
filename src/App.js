@@ -5,7 +5,6 @@ import Navigation from "./components/Navigation";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Rank from "./components/Rank";
 import ImageFromLink from "./components/ImageFormLink";
-import Particles from "react-particles-js";
 // import ClarifaiStud, { grpc } from "clarifai-nodejs-grpc";
 
 import React, { Component } from "react";
@@ -53,38 +52,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Particles
-          className="particles"
-          params={{
-            polygon: {
-              draw: {
-                stroke: {
-                  color: "rgba(255,140,0, 1)",
-                },
-              },
-            },
-            particles: {
-              number: {
-                value: 50,
-                density: {
-                  enable: true,
-                  value_area: 400,
-                },
-              },
-              size: {
-                value: 3,
-              },
-            },
-            interactivity: {
-              events: {
-                onhover: {
-                  enable: true,
-                  mode: "repulse",
-                },
-              },
-            },
-          }}
-        /> */}
         <Logo />
         <ImageLink
           onImageLink={this.onImageLink}
